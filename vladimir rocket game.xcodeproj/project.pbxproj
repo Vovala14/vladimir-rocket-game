@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E75934ED284FCC4900E8C8FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75934EC284FCC4900E8C8FB /* AppDelegate.swift */; };
+		E75934EF284FCC4900E8C8FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75934EE284FCC4900E8C8FB /* GameViewController.swift */; };
+		E75934F2284FCC4900E8C8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75934F0284FCC4900E8C8FB /* Main.storyboard */; };
+		E75934F5284FCC4900E8C8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75934F3284FCC4900E8C8FB /* LaunchScreen.storyboard */; };
+		E75934F6284FCC4900E8C8FB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E75934E1284FCC4800E8C8FB /* Actions.sks */; };
+		E75934F7284FCC4900E8C8FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E75934E2284FCC4800E8C8FB /* GameScene.sks */; };
+		E75934F8284FCC4900E8C8FB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75934E3284FCC4800E8C8FB /* GameScene.swift */; };
+		E75934F9284FCC4900E8C8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75934E4284FCC4900E8C8FB /* Assets.xcassets */; };
+		E759350028526FA400E8C8FB /* lazer.wav in Resources */ = {isa = PBXBuildFile; fileRef = E75934FF28526FA400E8C8FB /* lazer.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E75934E1284FCC4800E8C8FB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E75934E2284FCC4800E8C8FB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E75934E3284FCC4800E8C8FB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E75934E4284FCC4900E8C8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E75934E9284FCC4900E8C8FB /* vladimir rocket game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vladimir rocket game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75934EC284FCC4900E8C8FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E75934EE284FCC4900E8C8FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E75934F1284FCC4900E8C8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E75934F4284FCC4900E8C8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E75934FF28526FA400E8C8FB /* lazer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lazer.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75934E6284FCC4900E8C8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E75934DB284FCC4800E8C8FB = {
+			isa = PBXGroup;
+			children = (
+				E75934E0284FCC4800E8C8FB /* vladimir rocket game Shared */,
+				E75934EB284FCC4900E8C8FB /* vladimir rocket game iOS */,
+				E75934EA284FCC4900E8C8FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75934E0284FCC4800E8C8FB /* vladimir rocket game Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E75934E1284FCC4800E8C8FB /* Actions.sks */,
+				E75934E2284FCC4800E8C8FB /* GameScene.sks */,
+				E75934E3284FCC4800E8C8FB /* GameScene.swift */,
+				E75934FF28526FA400E8C8FB /* lazer.wav */,
+				E75934E4284FCC4900E8C8FB /* Assets.xcassets */,
+			);
+			path = "vladimir rocket game Shared";
+			sourceTree = "<group>";
+		};
+		E75934EA284FCC4900E8C8FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75934E9284FCC4900E8C8FB /* vladimir rocket game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75934EB284FCC4900E8C8FB /* vladimir rocket game iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E75934EC284FCC4900E8C8FB /* AppDelegate.swift */,
+				E75934EE284FCC4900E8C8FB /* GameViewController.swift */,
+				E75934F0284FCC4900E8C8FB /* Main.storyboard */,
+				E75934F3284FCC4900E8C8FB /* LaunchScreen.storyboard */,
+			);
+			path = "vladimir rocket game iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75934E8284FCC4900E8C8FB /* vladimir rocket game iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75934FC284FCC4900E8C8FB /* Build configuration list for PBXNativeTarget "vladimir rocket game iOS" */;
+			buildPhases = (
+				E75934E5284FCC4900E8C8FB /* Sources */,
+				E75934E6284FCC4900E8C8FB /* Frameworks */,
+				E75934E7284FCC4900E8C8FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vladimir rocket game iOS";
+			productName = "vladimir rocket game iOS";
+			productReference = E75934E9284FCC4900E8C8FB /* vladimir rocket game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75934DC284FCC4800E8C8FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E75934E8284FCC4900E8C8FB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E75934DF284FCC4800E8C8FB /* Build configuration list for PBXProject "vladimir rocket game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E75934DB284FCC4800E8C8FB;
+			productRefGroup = E75934EA284FCC4900E8C8FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75934E8284FCC4900E8C8FB /* vladimir rocket game iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75934E7284FCC4900E8C8FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75934F7284FCC4900E8C8FB /* GameScene.sks in Resources */,
+				E75934F2284FCC4900E8C8FB /* Main.storyboard in Resources */,
+				E75934F6284FCC4900E8C8FB /* Actions.sks in Resources */,
+				E75934F5284FCC4900E8C8FB /* LaunchScreen.storyboard in Resources */,
+				E75934F9284FCC4900E8C8FB /* Assets.xcassets in Resources */,
+				E759350028526FA400E8C8FB /* lazer.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75934E5284FCC4900E8C8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75934F8284FCC4900E8C8FB /* GameScene.swift in Sources */,
+				E75934EF284FCC4900E8C8FB /* GameViewController.swift in Sources */,
+				E75934ED284FCC4900E8C8FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E75934F0284FCC4900E8C8FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75934F1284FCC4900E8C8FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E75934F3284FCC4900E8C8FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75934F4284FCC4900E8C8FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75934FA284FCC4900E8C8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E75934FB284FCC4900E8C8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E75934FD284FCC4900E8C8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavrikgames.vladimir-rocket-game";
+				PRODUCT_NAME = "vladimir rocket game";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E75934FE284FCC4900E8C8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lavrikgames.vladimir-rocket-game";
+				PRODUCT_NAME = "vladimir rocket game";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75934DF284FCC4800E8C8FB /* Build configuration list for PBXProject "vladimir rocket game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75934FA284FCC4900E8C8FB /* Debug */,
+				E75934FB284FCC4900E8C8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75934FC284FCC4900E8C8FB /* Build configuration list for PBXNativeTarget "vladimir rocket game iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75934FD284FCC4900E8C8FB /* Debug */,
+				E75934FE284FCC4900E8C8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75934DC284FCC4800E8C8FB /* Project object */;
+}
