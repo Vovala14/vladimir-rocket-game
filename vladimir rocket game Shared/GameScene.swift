@@ -52,20 +52,23 @@ class GameScene: SKScene {
         
         
         startnewlevel()
-        
-    }
-        
-    func startnewlevel(){
-
-        let spwan = SKAction.runblock(spawnenemy)
-        let waitTOspwan = SKAction.waitforduration(1)
-        let = spwansequence = SKAction.sequence([spwan, waitTOspwan])
-        let spwanforever = SKAction.repeatactionforever(spwansequence)
-        self.runaction(spwanforever)
-
-    }
     
     }
+    
+    func startnewlevel(){
+
+
+        let spawn = SKAction.run(spawnenemy)
+        let waitTOspwan = SKAction.wait(forDuration: 1)
+        let spwansequence = SKAction.sequence([spawn, waitTOspwan])
+        let spwanforever = SKAction.repeatForever(spwansequence)
+        self.run(spwanforever)
+        
+        
+        
+    }
+        
+        
     
     func firebullet(){
         let bullet = SKSpriteNode(imageNamed: "arrow")
@@ -98,22 +101,22 @@ class GameScene: SKScene {
         enemy.zPosition = 2
         self.addChild(enemy)
         
-        let moveEnemy = SKAction.move(to: endpoint, duration: 1.5)
+        let moveenemy = SKAction.move(to:endpoint, duration: 1.5)
         
-        let deleteEnemy = SKAction.removeFromParent()
+        let deleteenemy = SKAction.removeFromParent()
         
-        let EnemySequence = SKAction.sequence([moveEnemy, deleteEnemy])
-        enemy.run(EnemySequence)
+        let enemySequence = SKAction.sequence([moveenemy, deleteenemy])
+        enemy.run(enemySequence)
         
-        enemy.runaction(EnemySequence)
-
+        
         let dx = endpoint.x - startpoint.x 
         let dy = endpoint.y - startpoint.y
         let amountToRotate = atan2(dy, dx)
-        enemy.zPosition = amountToRotate
+        enemy.zRotation = amountToRotate
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         firebullet()
+        
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
