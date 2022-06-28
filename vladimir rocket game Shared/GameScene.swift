@@ -49,6 +49,21 @@ class GameScene: SKScene {
         player.position = CGPoint(x: self.size.width/2, y: self.size.height * 0.2)
         player.zPosition = 2
         self.addChild(player)
+        
+        
+        startnewlevel()
+        
+    }
+        
+    func startnewlevel(){
+
+        let spwan = SKAction.runblock(spawnenemy)
+        let waitTOspwan = SKAction.waitforduration(1)
+        let = spwansequence = SKAction.sequence([spwan, waitTOspwan])
+        let spwanforever = SKAction.repeatactionforever(spwansequence)
+        self.runaction(spwanforever)
+
+    }
     
     }
     
@@ -89,6 +104,13 @@ class GameScene: SKScene {
         
         let EnemySequence = SKAction.sequence([moveEnemy, deleteEnemy])
         enemy.run(EnemySequence)
+        
+        enemy.runaction(EnemySequence)
+
+        let dx = endpoint.x - startpoint.x 
+        let dy = endpoint.y - startpoint.y
+        let amountToRotate = atan2(dy, dx)
+        enemy.zPosition = amountToRotate
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         firebullet()
